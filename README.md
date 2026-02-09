@@ -53,3 +53,13 @@ decrypted = enc.decrypt(encrypted, private_key)
 ## License
 
 MIT
+
+---
+
+## CI Status
+
+All PRs are checked for:
+- ✅ Syntax (Python, JS, TS, YAML, JSON, Dockerfile, Shell)
+- ✅ Secrets (No hardcoded credentials)
+- ✅ Security (High-severity vulnerabilities)
+
